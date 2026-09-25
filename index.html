@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesní med z Kačkovca – Včelař Láda</title>
+<meta name="description" content="Nepasterizovaný lesní med přímo od včelaře Lády, z úlů u Kačkovského potoka na jižní Moravě. Objednávejte ve 250g, 500g a 1kg sklenicích.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#" class="brand">Lesní med <span>z Kačkovca</span></a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#pribeh">Příběh</a>
+      <a href="#med">Med</a>
+      <a href="#objednavka">Objednávka</a>
+      <a href="#o-nas">O nás</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <img src="images/hero.jpg" alt="Sklenice lesního medu z Kačkovca se zlatavým voskovým víčkem" class="hero-img">
+    <div class="hero-scrim"></div>
+    <div class="wrap hero-content">
+      <h1>Lesní med<br>z Kačkovca</h1>
+      <p class="hero-lede">Med, který zraje tam, kde končí cesta – na kraji lesa<br class="br-desktop">
+      u Kačkovského potoka, pár kroků od Ládovy maringotky.</p>
+      <a href="#med" class="btn btn-primary">Objednat med</a>
+    </div>
+  </section>
+
+  <section id="pribeh" class="section story">
+    <div class="wrap story-grid">
+      <div class="story-text">
+        <p class="kicker">Příběh</p>
+        <h2>Kousek lesa, jedna maringotka<br>a pár tisíc včel</h2>
+        <p>Láda si místo u Kačkovce vybral v roce 2022 – ne kvůli výhledu,
+        ale kvůli tomu, co roste kolem. Smrky, jedle, akáty a lipiny, a mezi
+        nimi úzký pramen, kterému se tu odjakživa říká Kačkovský potok.
+        Včelám to stačí k tomu, aby nanosily med, který nechutná jako ten
+        z obchodu.</p>
+        <p>Přes sezónu tu bydlí v maringotce, pár metrů od úlů. Když se
+        ráno probudí, první věc, kterou slyší, není budík, ale bzukot.
+        Když prší, poslouchá kapky na plechové střeše a přemýšlí, jestli
+        se všechny včely stihly vrátit domů.</p>
+        <p>Med se netočí podle kalendáře, ale podle počasí a snůšky. Někdy
+        ho je málo, někdy víc – ale vždycky jen jeden druh, jen z jednoho
+        místa, beze změny a bez míchání šarží.</p>
+      </div>
+      <figure class="story-photo">
+        <img src="images/o-nas.jpg" alt="Detail sklenice lesního medu z Kačkovca se štítkem úlu a jehličím">
+      </figure>
+    </div>
+
+    <div class="wave-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,30 C150,60 350,0 600,30 C850,60 1050,0 1200,30 L1200,60 L0,60 Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <section id="med" class="section products">
+    <div class="wrap">
+      <p class="kicker">Nabídka</p>
+      <h2>Jedna snůška, tři velikosti</h2>
+      <p class="section-intro">Lesní med z Kačkovca – nepasterizovaný,
+      neředěný, přímo z Ládových úlů. Vyberte si sklenici, která vám
+      vydrží tak akorát.</p>
+
+      <div class="menu-list">
+        <div class="menu-row">
+          <div class="menu-name">
+            <span class="menu-title">250 g</span>
+            <span class="menu-desc">Na vyzkoušení nebo pro jednoho</span>
+          </div>
+          <span class="menu-leader" aria-hidden="true"></span>
+          <span class="menu-price">95 Kč</span>
+          <button class="btn btn-ghost order-btn" data-size="250 g – 95 Kč">Objednat</button>
+        </div>
+
+        <div class="menu-row menu-row--featured">
+          <div class="menu-name">
+            <span class="menu-title">500 g</span>
+            <span class="menu-desc">Sklenice na běžné týdny · nejžádanější</span>
+          </div>
+          <span class="menu-leader" aria-hidden="true"></span>
+          <span class="menu-price">180 Kč</span>
+          <button class="btn btn-ghost order-btn" data-size="500 g – 180 Kč">Objednat</button>
+        </div>
+
+        <div class="menu-row">
+          <div class="menu-name">
+            <span class="menu-title">1 kg</span>
+            <span class="menu-desc">Pro celou rodinu nebo na zásobu</span>
+          </div>
+          <span class="menu-leader" aria-hidden="true"></span>
+          <span class="menu-price">340 Kč</span>
+          <button class="btn btn-ghost order-btn" data-size="1 kg – 340 Kč">Objednat</button>
+        </div>
+      </div>
+      <p class="menu-note">Ceny jsou orientační, podle aktuální snůšky se
+      mohou v průběhu sezóny mírně měnit.</p>
+    </div>
+  </section>
+
+  <section id="objednavka" class="section order">
+    <div class="wrap order-grid">
+      <div>
+        <p class="kicker">Objednávka</p>
+        <h2>Jak si med objednat</h2>
+        <p>Vyplňte pár řádků a potvrďte – otevře se vám e-mail s
+        objednávkou, rovnou adresovaný Ládovi. Platbu a předání si pak
+        domluvíte spolu, podle toho, co se vám hodí.</p>
+      </div>
+
+      <form id="orderForm" class="order-form">
+        <label>
+          Jméno a příjmení
+          <input type="text" name="jmeno" required>
+        </label>
+        <label>
+          E-mail nebo telefon
+          <input type="text" name="kontakt" required>
+        </label>
+        <div class="form-row">
+          <label>
+            Velikost sklenice
+            <select name="velikost" id="velikostSelect">
+              <option value="250 g – 95 Kč">250 g – 95 Kč</option>
+              <option value="500 g – 180 Kč" selected>500 g – 180 Kč</option>
+              <option value="1 kg – 340 Kč">1 kg – 340 Kč</option>
+            </select>
+          </label>
+          <label>
+            Počet kusů
+            <input type="number" name="pocet" min="1" value="1" required>
+          </label>
+        </div>
+        <label>
+          Způsob předání
+          <select name="predani">
+            <option>Osobní odběr u maringotky (Kačkovec)</option>
+            <option>Zaslání Českou poštou</option>
+          </select>
+        </label>
+        <label>
+          Poznámka
+          <textarea name="poznamka" rows="3" placeholder="Nepovinné"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Odeslat objednávku e-mailem</button>
+        <p class="form-note">Objednávka se otevře jako připravený e-mail
+        ve vaší poštovní aplikaci – stačí ho odeslat.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="o-nas" class="section about">
+    <div class="wrap about-grid">
+      <div>
+        <p class="kicker">O nás</p>
+        <h2>O Ládovi a poctivém medu</h2>
+        <p>Láda se stará o pár včelstev v okolí Kačkovce na jižní
+        Moravě, kousek od Kačkovského potoka. Med netočí do
+        velkoobchodu – jen tolik, kolik sám zvládne vytočit, nechat
+        uležet a naplnit do sklenic, které pak vlastnoručně podepíše.</p>
+        <p>Žádná pasterizace, žádné míchání šarží, žádná chemie
+        v úlech. Co vyteče z medometu, to skončí ve sklenici – a odtud
+        rovnou k vám.</p>
+      </div>
+
+      <div class="payment-card">
+        <h3>Platba převodem</h3>
+        <p>Po domluvě můžete zaplatit převodem – naskenujte QR kód ve
+        své bankovní aplikaci a doplňte částku podle objednávky.</p>
+        <img src="images/qr-platba.png" alt="QR kód pro platbu převodem na účet" class="qr-code">
+        <p class="account-number">123456 7890 / 0300</p>
+        <p class="placeholder-note">Ukázkové číslo účtu – před spuštěním
+        webu nahraďte skutečným účtem Lády.</p>
+      </div>
+    </div>
+
+    <div class="wrap contact-block">
+      <p><strong>Včelař Láda</strong> · Kačkovec, jižní Morava</p>
+      <p class="placeholder-note">kontakt@doplnit.cz · +420 000 000 000
+      — doplňte prosím skutečný telefon a e-mail.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="rok"></span> Lesní med z Kačkovca. Med z jednoho
+    místa, jedním párem rukou.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
