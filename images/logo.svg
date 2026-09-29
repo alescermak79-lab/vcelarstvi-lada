@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 230" role="img" aria-label="Láda – med z Kačkovca">
+  <path d="M100 4 L194 58 L194 172 L100 226 L6 172 L6 58 Z" fill="#221812"/>
+  <path d="M100 14 L185 63 L185 167 L100 216 L15 167 L15 63 Z" fill="none" stroke="#F4C542" stroke-width="2" opacity=".55"/>
+  <g transform="translate(100 70)" fill="none" stroke="#F4C542" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-4 -8 C-18 -30 -40 -22 -30 -6 C-24 3 -10 2 -4 -3"/>
+    <path d="M4 -8 C18 -30 40 -22 30 -6 C24 3 10 2 4 -3"/>
+    <ellipse cx="0" cy="6" rx="8" ry="15"/>
+    <path d="M-7 2 H7 M-7.6 9 H7.6 M-6 16 H6"/>
+    <circle cx="0" cy="-14" r="5"/>
+    <path d="M-3 -18 L-8 -27 M3 -18 L8 -27"/>
+  </g>
+  <text x="100" y="146" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#FFFFFF" letter-spacing="3">LÁDA</text>
+  <path d="M62 160 H138" stroke="#F4C542" stroke-width="2"/>
+  <text x="100" y="182" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F4C542" letter-spacing="2.4">MED Z KAČKOVCA</text>
+</svg>
