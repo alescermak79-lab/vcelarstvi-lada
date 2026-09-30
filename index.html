@@ -3,50 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lesní med z Kačkovca – Včelař Láda</title>
-<meta name="description" content="Nepasterizovaný lesní med přímo od včelaře Lády, z úlů u Kačkovského potoka na jižní Moravě. Objednávejte ve 250g, 500g a 1kg sklenicích.">
+<title>Med z Kačkovca – květový a lesní med od včelaře Lády</title>
+<meta name="description" content="Pravý přírodní květový a lesní med přímo od včelaře Lády z Kačkovce na jižní Moravě. Nepasterizovaný, ve 250g, 500g a 1kg sklenicích.">
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <linearGradient id="medG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3B63D"/><stop offset="1" stop-color="#A9571A"/></linearGradient>
-    <linearGradient id="skloG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".22" stop-color="#fff" stop-opacity=".5"/><stop offset=".38" stop-color="#fff" stop-opacity="0"/></linearGradient>
-    <symbol id="sklenice" viewBox="0 0 120 160">
-      <ellipse cx="60" cy="154" rx="46" ry="5" fill="#000" opacity=".12"/>
-      <path d="M18 150 C14 100 14 60 22 38 L98 38 C106 60 106 100 102 150 C102 156 18 156 18 150Z" fill="url(#medG)"/>
-      <path d="M18 150 C14 100 14 60 22 38 L98 38 C106 60 106 100 102 150 C102 156 18 156 18 150Z" fill="url(#skloG)"/>
-      <rect x="20" y="16" width="80" height="24" rx="4" fill="#E2A93F"/>
-      <path d="M20 28 H100" stroke="#B5651D" stroke-width="1.2"/>
-      <rect x="28" y="70" width="64" height="52" rx="4" fill="#FBF6E8"/>
-      <path d="M52 88 l8 -5 8 5 v10 l-8 5 -8 -5z" fill="none" stroke="#221812" stroke-width="2"/>
-      <path d="M38 112 H82" stroke="#221812" stroke-width="1.5"/>
-      <path d="M24 40 C22 52 20 62 22 74 C23 80 28 80 28 74 C28 64 30 52 32 40Z" fill="#E6A233"/>
-    </symbol>
-  </defs>
-</svg>
-
 <header class="site-header">
   <div class="wrap header-inner">
-    <a href="#" class="brand" aria-label="Lesní med z Kačkovca – úvod">
-      <img src="images/logo.svg" alt="" width="60" height="69">
-    </a>
+    <a href="#" class="brand">Med <span>z Kačkovca</span></a>
     <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
       <span></span><span></span><span></span>
       <span class="sr-only">Menu</span>
     </button>
     <nav class="site-nav" id="siteNav">
-      <a href="#pribeh">O včelíně</a>
+      <a href="#pribeh">Příběh</a>
       <a href="#med">Nabídka</a>
       <a href="#o-medu">O medu</a>
       <a href="#objednavka">Objednávka</a>
       <a href="#kontakty">Kontakty</a>
-      <a href="#objednavka" class="nav-cta">Objednat med</a>
     </nav>
   </div>
 </header>
@@ -54,13 +33,16 @@
 <main>
 
   <section class="hero">
-    <div class="hero-inner">
-      <h1 class="sr-only">Lesní med z Kačkovca – včelař Láda</h1>
-      <img src="images/logo.svg" alt="Láda – med z Kačkovca" class="hero-logo" width="330" height="380">
-      <p class="hero-lede">Poctivý lesní med od maringotky u Kačkovského potoka</p>
+    <div class="wrap hero-inner">
+      <h1 class="sr-only">Květový a lesní med z Kačkovca – pravý přírodní med od včelaře Lády</h1>
+      <div class="hero-labels">
+        <img src="images/etiketa-kvetovy.webp" alt="Etiketa: Květový med z Kačkovca, pravý přírodní, since 2022" class="hl hl-back" width="760" height="636">
+        <img src="images/etiketa-lesni.webp" alt="Etiketa: Lesní med z Kačkovca, pravý přírodní, since 2022" class="hl hl-front" width="760" height="605">
+      </div>
+      <p class="hero-lede">Pravý přírodní med přímo od včelaře – z úlů u Ládovy maringotky na kraji lesa u Kačkovského potoka.</p>
       <div class="hero-btns">
-        <a href="#med" class="pill">Online objednávka &gt;</a>
-        <a href="#kontakty" class="pill">Osobní odběr &gt;</a>
+        <a href="#med" class="btn">Objednat med</a>
+        <a href="#pribeh" class="btn btn-light">Příběh včelína</a>
       </div>
     </div>
   </section>
@@ -68,37 +50,30 @@
   <section id="pribeh" class="section">
     <div class="wrap">
       <div class="head">
-        <h2>Med přímo od včelaře z Kačkovce</h2>
-        <p class="head-intro">Láda chová včely na kraji lesa u Kačkovského potoka na jižní Moravě.
-        Přes sezónu bydlí v maringotce, jen pár kroků od úlů.</p>
+        <p class="kicker">Pravý přírodní</p>
+        <h2>Kousek lesa, jedna maringotka<br>a pár tisíc včel</h2>
+        <img src="images/ornament.svg" alt="" class="orn" width="240" height="24">
       </div>
 
       <div class="story-grid">
-        <div class="story-box">
-          <p>Místo u Kačkovce si vybral v roce 2022 – ne kvůli výhledu, ale kvůli
-          tomu, co roste kolem. Smrky, jedle, akáty a lípy, a mezi nimi úzký
-          pramen, kterému se tu odjakživa říká Kačkovský potok.</p>
-          <p>Když se ráno probudí, první věc, kterou slyší, není budík, ale bzukot.
-          Když prší, poslouchá kapky na plechové střeše a přemýšlí, jestli se
-          všechny včely stihly vrátit domů.</p>
+        <div class="frame story-box">
+          <p class="dropcap">Láda si místo u Kačkovce vybral v roce 2022 – ne kvůli výhledu, ale kvůli
+          tomu, co roste kolem. Louky plné květů, smrky, jedle, akáty a lípy, a mezi
+          nimi úzký pramen, kterému se tu odjakživa říká Kačkovský potok.</p>
+          <p>Přes sezónu bydlí v maringotce, pár metrů od úlů. Když se ráno probudí,
+          první věc, kterou slyší, není budík, ale bzukot. Když prší, poslouchá
+          kapky na plechové střeše a přemýšlí, jestli se všechny včely stihly
+          vrátit domů.</p>
           <p>Med se netočí podle kalendáře, ale podle počasí a snůšky. Někdy ho je
-          málo, někdy víc – ale vždycky jen jeden druh, z jednoho místa, bez
-          míchání šarží.</p>
+          málo, někdy víc – ale každý druh vždycky z jednoho místa a bez míchání
+          šarží.</p>
         </div>
 
         <div class="mosaic">
-          <figure class="m1"><img src="images/o-nas.jpg" alt="Sklenice lesního medu z Kačkovca se štítkem"></figure>
-          <figure class="m2">
-            <svg viewBox="860 300 460 290" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustrace: Ládova maringotka a úly na louce">
-              <image href="images/hero-louka.svg" width="1440" height="800"/>
-            </svg>
-          </figure>
-          <figure class="m3"><img src="images/hero_final.jpg" alt="Dvě velikosti sklenic lesního medu z Kačkovca"></figure>
-          <figure class="m4">
-            <svg viewBox="1060 520 300 280" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustrace: sklenice medu na pařezu a včely">
-              <image href="images/hero-louka.svg" width="1440" height="800"/>
-            </svg>
-          </figure>
+          <figure class="m1"><img src="images/o-nas.jpg" alt="Sklenice lesního medu z Kačkovca s etiketou"></figure>
+          <figure class="m2"><img src="images/etiketa-lesni.webp" alt="" class="crop-ul" aria-hidden="true"></figure>
+          <figure class="m3"><img src="images/hero_final.jpg" alt="Dvě velikosti sklenic medu z Kačkovca"></figure>
+          <figure class="m4"><img src="images/etiketa-kvetovy.webp" alt="" class="crop-kvety" aria-hidden="true"></figure>
         </div>
       </div>
     </div>
@@ -107,35 +82,36 @@
   <section id="med" class="section section-alt">
     <div class="wrap">
       <div class="head">
-        <h2>Nabídka medu</h2>
-        <p class="head-intro">Lesní med z Kačkovca – nepasterizovaný, neředěný, přímo z Ládových úlů.
-        Jedna snůška, tři velikosti sklenic.</p>
+        <p class="kicker">Nabídka</p>
+        <h2>Dva druhy, tři velikosti</h2>
+        <img src="images/ornament.svg" alt="" class="orn" width="240" height="24">
+        <p class="head-intro">Oba medy jsou nepasterizované, neředěné a přímo z Ládových úlů.
+        Vyberte si druh a sklenici, která vám vydrží tak akorát.</p>
       </div>
 
-      <div class="cards">
-        <article class="card">
-          <svg class="card-jar" style="width:92px" aria-hidden="true"><use href="#sklenice"/></svg>
-          <h3>250 g</h3>
-          <p class="card-desc">Na vyzkoušení nebo pro jednoho</p>
-          <p class="card-price">95 Kč</p>
-          <button class="btn-yellow order-btn" data-size="250 g – 95 Kč">Objednat</button>
+      <div class="products">
+        <article class="frame product product--kvetovy">
+          <img src="images/etiketa-kvetovy.webp" alt="Etiketa Květový med z Kačkovca" class="product-label" width="760" height="636">
+          <h3>Květový med</h3>
+          <p class="product-desc">Z lučních a zahradních květů v okolí Kačkovce – světlejší, jemný
+          a sladší. Ideální do čaje, na pečivo i na lžičku.</p>
+          <ul class="sizes">
+            <li><span class="s-name">250 g</span><span class="s-dots" aria-hidden="true"></span><span class="s-price">95 Kč</span><button class="btn btn-sm order-btn" data-size="Květový med – 250 g – 95 Kč">Objednat</button></li>
+            <li><span class="s-name">500 g</span><span class="s-dots" aria-hidden="true"></span><span class="s-price">180 Kč</span><button class="btn btn-sm order-btn" data-size="Květový med – 500 g – 180 Kč">Objednat</button></li>
+            <li><span class="s-name">1 kg</span><span class="s-dots" aria-hidden="true"></span><span class="s-price">340 Kč</span><button class="btn btn-sm order-btn" data-size="Květový med – 1 kg – 340 Kč">Objednat</button></li>
+          </ul>
         </article>
 
-        <article class="card card--featured">
-          <span class="badge">Nejžádanější</span>
-          <svg class="card-jar" style="width:118px" aria-hidden="true"><use href="#sklenice"/></svg>
-          <h3>500 g</h3>
-          <p class="card-desc">Sklenice na běžné týdny</p>
-          <p class="card-price">180 Kč</p>
-          <button class="btn-yellow order-btn" data-size="500 g – 180 Kč">Objednat</button>
-        </article>
-
-        <article class="card">
-          <svg class="card-jar" style="width:144px" aria-hidden="true"><use href="#sklenice"/></svg>
-          <h3>1 kg</h3>
-          <p class="card-desc">Pro celou rodinu nebo na zásobu</p>
-          <p class="card-price">340 Kč</p>
-          <button class="btn-yellow order-btn" data-size="1 kg – 340 Kč">Objednat</button>
+        <article class="frame product product--lesni">
+          <img src="images/etiketa-lesni.webp" alt="Etiketa Lesní med z Kačkovca" class="product-label" width="760" height="605">
+          <h3>Lesní med</h3>
+          <p class="product-desc">Ze smrků, jedlí a lesních porostů u Kačkovského potoka – tmavší,
+          hustší a plnější, s typickou lesní chutí.</p>
+          <ul class="sizes">
+            <li><span class="s-name">250 g</span><span class="s-dots" aria-hidden="true"></span><span class="s-price">95 Kč</span><button class="btn btn-sm order-btn" data-size="Lesní med – 250 g – 95 Kč">Objednat</button></li>
+            <li><span class="s-name">500 g</span><span class="s-dots" aria-hidden="true"></span><span class="s-price">180 Kč</span><button class="btn btn-sm order-btn" data-size="Lesní med – 500 g – 180 Kč">Objednat</button></li>
+            <li><span class="s-name">1 kg</span><span class="s-dots" aria-hidden="true"></span><span class="s-price">340 Kč</span><button class="btn btn-sm order-btn" data-size="Lesní med – 1 kg – 340 Kč">Objednat</button></li>
+          </ul>
         </article>
       </div>
       <p class="note">Ceny jsou orientační, podle aktuální snůšky se mohou v průběhu sezóny mírně měnit.</p>
@@ -145,20 +121,20 @@
   <section id="o-medu" class="section">
     <div class="wrap">
       <div class="head">
-        <h2>O medu</h2>
+        <p class="kicker">O medu</p>
+        <h2>Co je ve sklenici</h2>
+        <img src="images/ornament.svg" alt="" class="orn" width="240" height="24">
       </div>
       <div class="facts">
         <div class="fact">
-          <h3><span class="hex" aria-hidden="true"></span>Lesní med z jednoho místa</h3>
-          <p>Včely z Kačkovce létají po okolním lese – smrcích, jedlích, akátech
-          a lípách. Proto je med tmavší a plnější chuti než běžný květový med
-          z obchodu. Každá sklenice pochází z jedné snůšky, šarže se nemíchají.</p>
+          <h3><span class="hex" aria-hidden="true"></span>Přímo od včelaře</h3>
+          <p>Žádný překupník ani velkoobchod. Láda med sám vytočí, nechá uležet,
+          naplní do sklenic a předá vám ho osobně nebo pošle poštou.</p>
         </div>
         <div class="fact">
-          <h3><span class="hex" aria-hidden="true"></span>Bez pasterizace a ředění</h3>
+          <h3><span class="hex" aria-hidden="true"></span>100% přírodní, nepasterizováno</h3>
           <p>Co vyteče z medometu, to skončí ve sklenici. Med se nezahřívá ani
-          neředí, takže si zachová chuť i vůni, jakou mu daly včely. Láda ho
-          jen nechá uležet a naplní do sklenic.</p>
+          neředí, takže si zachová chuť i vůni, jakou mu daly včely.</p>
         </div>
         <div class="fact">
           <h3><span class="hex" aria-hidden="true"></span>Krystalizace je v pořádku</h3>
@@ -177,22 +153,25 @@
   </section>
 
   <section class="cta">
-    <div class="cta-inner">
-      <p class="cta-text">Včely na kraji lesa pracují celou sezónu.<br>
+    <div class="wrap cta-inner">
+      <p class="kicker kicker-light">Přímo od včelaře</p>
+      <p class="cta-text">Včely u Kačkovce pracují celou sezónu.<br>
       Láda jejich práci jen stočí do sklenic – a pošle ji až k vám.</p>
-      <a href="#objednavka" class="btn-yellow">Objednat med</a>
+      <a href="#objednavka" class="btn btn-light">Objednat med</a>
     </div>
   </section>
 
   <section id="objednavka" class="section section-alt">
     <div class="wrap">
       <div class="head">
-        <h2>Objednávka</h2>
+        <p class="kicker">Objednávka</p>
+        <h2>Jak si med objednat</h2>
+        <img src="images/ornament.svg" alt="" class="orn" width="240" height="24">
         <p class="head-intro">Vyplňte pár řádků a potvrďte – otevře se vám e-mail s objednávkou,
         rovnou adresovaný Ládovi. Platbu a předání si pak domluvíte spolu.</p>
       </div>
 
-      <form id="orderForm" class="order-form">
+      <form id="orderForm" class="frame order-form">
         <label>
           Jméno a příjmení
           <input type="text" name="jmeno" required autocomplete="name">
@@ -203,11 +182,18 @@
         </label>
         <div class="form-row">
           <label>
-            Velikost sklenice
+            Druh a velikost
             <select name="velikost" id="velikostSelect">
-              <option value="250 g – 95 Kč">250 g – 95 Kč</option>
-              <option value="500 g – 180 Kč" selected>500 g – 180 Kč</option>
-              <option value="1 kg – 340 Kč">1 kg – 340 Kč</option>
+              <optgroup label="Květový med">
+                <option value="Květový med – 250 g – 95 Kč">Květový med – 250 g – 95 Kč</option>
+                <option value="Květový med – 500 g – 180 Kč">Květový med – 500 g – 180 Kč</option>
+                <option value="Květový med – 1 kg – 340 Kč">Květový med – 1 kg – 340 Kč</option>
+              </optgroup>
+              <optgroup label="Lesní med">
+                <option value="Lesní med – 250 g – 95 Kč">Lesní med – 250 g – 95 Kč</option>
+                <option value="Lesní med – 500 g – 180 Kč" selected>Lesní med – 500 g – 180 Kč</option>
+                <option value="Lesní med – 1 kg – 340 Kč">Lesní med – 1 kg – 340 Kč</option>
+              </optgroup>
             </select>
           </label>
           <label>
@@ -224,9 +210,9 @@
         </label>
         <label>
           Poznámka
-          <textarea name="poznamka" rows="3" placeholder="Nepovinné"></textarea>
+          <textarea name="poznamka" rows="3" placeholder="Nepovinné – např. další druh nebo velikost"></textarea>
         </label>
-        <button type="submit" class="btn-yellow btn-block">Odeslat objednávku e-mailem</button>
+        <button type="submit" class="btn btn-block">Odeslat objednávku e-mailem</button>
         <p class="form-note">Objednávka se otevře jako připravený e-mail ve vaší poštovní
         aplikaci – stačí ho odeslat.</p>
       </form>
@@ -236,7 +222,9 @@
   <section id="kontakty" class="section">
     <div class="wrap">
       <div class="head">
-        <h2>Kontakty</h2>
+        <p class="kicker">Kontakty</p>
+        <h2>Kde Ládu najdete</h2>
+        <img src="images/ornament.svg" alt="" class="orn" width="240" height="24">
       </div>
 
       <div class="contact-grid">
@@ -247,7 +235,7 @@
           <p class="placeholder-note">Doplňte prosím skutečný telefon a e-mail.</p>
         </div>
 
-        <div class="pay-card">
+        <div class="frame pay-card">
           <h3>Platba převodem</h3>
           <img src="images/qr-platba.png" alt="QR kód pro platbu převodem na účet" class="qr-code" width="150" height="150">
           <p class="account-number">123456 7890 / 0300</p>
@@ -255,10 +243,10 @@
         </div>
 
         <ul class="contact-links">
-          <li><a href="#objednavka">&gt; Jak objednat med</a></li>
-          <li><a href="#med">&gt; Ceník a velikosti sklenic</a></li>
-          <li><a href="#o-medu">&gt; Jak med skladovat</a></li>
-          <li><a href="#pribeh">&gt; O Ládově včelíně</a></li>
+          <li><a href="#objednavka">Jak objednat med</a></li>
+          <li><a href="#med">Ceník a velikosti sklenic</a></li>
+          <li><a href="#o-medu">Jak med skladovat</a></li>
+          <li><a href="#pribeh">Příběh včelína</a></li>
         </ul>
       </div>
     </div>
@@ -268,8 +256,8 @@
 
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <img src="images/logo.svg" alt="" width="46" height="53">
-    <p>© <span id="rok"></span> Lesní med z Kačkovca · Med z jednoho místa, jedním párem rukou.</p>
+    <p class="footer-brand">Med <span>z Kačkovca</span></p>
+    <p>© <span id="rok"></span> · Pravý přírodní med přímo od včelaře · Since 2022</p>
   </div>
 </footer>
 
